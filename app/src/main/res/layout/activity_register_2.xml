@@ -56,5 +56,13 @@
             android:inputType="textEmailAddress"
             android:textColor="@color/purple_500"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/knopka"
+            android:text="Войти"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
