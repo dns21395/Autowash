@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Autowash</string>
+    <string name="app_in_name">ЯктВебМойка</string>
+    <string name="app_name_after">Register App</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btn1">Карты</string>
+    <string name="btn2">Мойки</string>
+    <string name="btn3">Цены</string>
+    <string name="btn4">Контакты</string>
+    <string name="btn5">О нас</string>
+</resources>
