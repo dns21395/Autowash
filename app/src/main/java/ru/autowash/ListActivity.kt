@@ -17,6 +17,22 @@ class ListActivity : AppCompatActivity() {
                 startActivity(Intent(this@ListActivity, MapActivity::class.java))
                 finish()
             }
+            btn2.setOnClickListener {
+                startActivity(Intent(this@ListActivity, MoikaActivity::class.java))
+                finish()
+            }
+            btn3.setOnClickListener {
+                startActivity(Intent(this@ListActivity, PriceActivity::class.java))
+                finish()
+            }
+            btn4.setOnClickListener {
+                startActivity(Intent(this@ListActivity, ContactsActivity::class.java))
+                finish()
+            }
+            btn5.setOnClickListener {
+                startActivity(Intent(this@ListActivity, AboutActivity::class.java))
+                finish()
+            }
         }
     }
 }

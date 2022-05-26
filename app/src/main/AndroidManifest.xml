@@ -21,6 +21,10 @@
         <activity android:name=".register.RegisterActivity" android:exported="true" />
         <activity android:name=".ListActivity" android:exported="true" />
         <activity android:name=".MapActivity" android:exported="true" />
+        <activity android:name=".AboutActivity" android:exported="true" />
+        <activity android:name=".ContactsActivity" android:exported="true" />
+        <activity android:name=".MoikaActivity" android:exported="true" />
+        <activity android:name=".PriceActivity" android:exported="true" />
     </application>
 
 </manifest>
