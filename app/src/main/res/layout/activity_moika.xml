@@ -5,7 +5,10 @@
 
     <TextView
         android:padding="16dp"
-        android:text="Hello World"
+        android:text="Hello World\nMoika\n\nMoika"
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
