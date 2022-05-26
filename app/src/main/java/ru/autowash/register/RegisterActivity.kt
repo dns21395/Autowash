@@ -1,8 +1,9 @@
-package ru.autowash
+package ru.autowash.register
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import ru.autowash.ListActivity
 import ru.autowash.databinding.ActivityRegister2Binding
 
 class RegisterActivity : AppCompatActivity() {
@@ -18,5 +19,11 @@ class RegisterActivity : AppCompatActivity() {
                 finish()
             }
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this@RegisterActivity, MainActivity::class.java))
+        finish()
     }
 }

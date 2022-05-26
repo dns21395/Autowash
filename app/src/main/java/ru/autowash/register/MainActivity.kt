@@ -1,4 +1,4 @@
-package ru.autowash
+package ru.autowash.register
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
